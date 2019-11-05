@@ -49,5 +49,5 @@ class Clear:
         element = self.target.found_by(the_actor)
         element.clear()
 
-    def __init__(self, target: Target) -> "Clear":
+    def __init__(self, target: Target) -> None:
         self.target = target
